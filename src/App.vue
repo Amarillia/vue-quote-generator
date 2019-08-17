@@ -3,7 +3,7 @@
     <Header headerTitle="Random Quote Generator" />
     <div class="container">
       <div class="jumbotron">
-        <h1>Generate random new quotes and brighten up your day."</h1>
+        <h1>"Generate random new quotes and brighten up your day."</h1>
         <div class="row text-center">
           <div class="col-xs-6" id="quote-box">
             <p id="text"></p>
@@ -27,13 +27,11 @@
 <script>
 import Header from "./components/AppHeader";
 import Button from "./components/AppButton";
-import AppForm from "./components/AppForm";
 
 export default {
   name: "app",
   components: {
     Header,
-    AppForm,
     Button
   },
   data() {
